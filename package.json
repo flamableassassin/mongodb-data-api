@@ -1,0 +1,23 @@
+{
+  "name": "mongodb-dapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "prepublishOnly": "node ./scripts/build"
+  },
+  "author": "flammableassassin",
+  "license": "",
+  "dependencies": {
+    "bson": "^4.7.2",
+    "discord-api-types": "^0.37.29",
+    "mongodb": "^4.13.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "optionalDependencies": {
+    "undici": "^5.16.0"
+  }
+}
