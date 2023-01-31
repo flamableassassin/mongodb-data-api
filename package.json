@@ -1,6 +1,6 @@
 {
   "name": "mongodb-dapi",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
@@ -8,7 +8,7 @@
     "prepublishOnly": "node ./scripts/build"
   },
   "author": "flammableassassin",
-  "license": "",
+  "license": "MIT",
   "dependencies": {
     "bson": "^4.7.2",
     "discord-api-types": "^0.37.29",
@@ -19,5 +19,9 @@
   },
   "optionalDependencies": {
     "undici": "^5.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flamableassassin/mongodb-data-api.git"
   }
 }
