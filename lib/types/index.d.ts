@@ -1,4 +1,6 @@
-import type { UpdateFilter, Filter, Document } from "mongodb";
+import type { UpdateFilter, Filter } from "mongodb";
+
+type Document = { [key: string]: any; }
 
 type metaSort = { "$meta": "textScore" | "indexKey" };
 
