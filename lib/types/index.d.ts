@@ -54,7 +54,7 @@ export interface DeleteRequestBody<Doc extends Document> extends RequestBase {
 }
 
 export interface AggregateRequestBody<Doc extends Document> extends RequestBase {
-  pipeline: Doc[]
+  pipeline: any[]
 }
 
 
