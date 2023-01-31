@@ -80,3 +80,4 @@ export type config = {
   key: string
 }
 
+export default function <Endpoint extends Endpoints>(config: config, endpoint: Endpoint, body: requestBodies[Endpoint]): Promise<import("undici").Response>;
