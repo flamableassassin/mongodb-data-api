@@ -7,7 +7,7 @@ let localFetch: typeof Ifetch;
 
 try {
   const { fetch: undiciFetch } = require("undici");
-  localFetch = undiciFetch.fetch;
+  localFetch = undiciFetch;
 } catch (e) {
   if (fetch === undefined) throw new Error("No fetch implementation found. Please install the optional dependency undici");
   else localFetch = fetch as typeof Ifetch;
